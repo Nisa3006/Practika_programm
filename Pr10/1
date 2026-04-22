@@ -1,0 +1,16 @@
+
+print("кодовый замок")
+3
+correct pin = 4598
+4
+5
+while True:
+10
+11
+12
+pin = int(input("Bведите пH Kод:"))
+if pin == correct_pin:
+print("Доступ разрешен*)
+break
+else:
+print("Ошибка. Попробуйте еще раз*)
