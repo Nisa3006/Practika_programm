@@ -1,16 +1,9 @@
-
 print("кодовый замок")
-3
-correct pin = 4598
-4
-5
+correct_pin = 4598
 while True:
-10
-11
-12
-pin = int(input("Bведите пH Kод:"))
-if pin == correct_pin:
-print("Доступ разрешен*)
-break
-else:
-print("Ошибка. Попробуйте еще раз*)
+    pin = int(input("Bведите пин код:"))
+    if pin == correct_pin:
+        print("Доступ разрешен")
+        break
+    else:
+        print("Ошибка. Попробуйте еще раз")
