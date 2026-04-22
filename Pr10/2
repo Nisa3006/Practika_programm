@@ -1,0 +1,16 @@
+
+first_number = float(input("введите первое число: "))
+while True:
+    second_number = float(input("введите второе число : "))
+    if second_number > first_number:
+        break
+    else:
+        print("Ошибка: второе число должно быть строго больше первого. Попробуйте ещё раз.")
+
+while True:
+    third_number = float(input("введите третье число : "))
+    if third_number > second_number:
+        break
+    else:
+        print("Ошибка: третье число должно быть строго больше второго. Попробуйте ещё раз.")
+print("Последовательность принята")
