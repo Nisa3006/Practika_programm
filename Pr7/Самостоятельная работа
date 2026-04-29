@@ -1,0 +1,14 @@
+print("Определения сезона")
+season  = int(input("Введите число от 1 до 12: "))
+
+match season:
+    case 12 | 1 | 2:
+        print(season, "winter ❄️")
+    case 3 | 4 | 5:
+        print(season, "spring🌸")
+    case 6 | 7 | 8:
+        print(season, "summer🌳")
+    case 9 | 10 | 11:
+        print(season, "autumn🍂")
+    case _:
+        print("Нету такого сезона🤦‍♀️")
